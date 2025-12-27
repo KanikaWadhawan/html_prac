@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+     <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th{
+            background-color: #710303;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <!--Heading Tags-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sint quis
+      voluptatum facilis, earum beatae cumque explicabo dolorem cupiditate vero <br>
+      culpa repudiandae laudantium aspernatur odit iste delectus debitis
+      possimus provident.
+      <hr>
+      <a href="https://www.google.com" target="_blank">Visit my home page</a>
+      <img src="https://media.wired.com/photos/5926ffe47034dc5f91bed4e8/3:2/w_2240,c_limit/google-logo.jpg" alt="image">
+      <img src="./pinecone-10001896_640.jpg" alt="image 2">
+
+      <h1>List of languages</h1>
+      <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+      </ul>
+      <hr>
+       <h1>List of languages</h1>
+      <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+      </ol>
+      <hr>
+       <h1>List of languages</h1>
+      <dl>
+        <dt>html</dt>
+        <dt>css</dt>
+        <dt>js</dt>
+      </dl>
+
+
+    </p>
+
+
+    <h1>HTML Formatting Elements Demonstration</h1>
+    <!-- Blockquote with cite attributes -->
+    <blockquote cite="https://masynctech.com/">
+        "This is a quotation from another source"
+    </blockquote>
+    <p>
+        <cite>Source: masynctech</cite>
+    </p>
+    <!-- q for inline quotation -->
+    <p>
+        Masynctech said, <q>HTML is the building block of web pages</q>
+    </p>
+    <!-- abbr with title attribute -->
+    <p>
+        The abbreviation <abbr title="Hypertext Markup Language">HTML</abbr> is widely used in web development
+    </p>
+    <!-- pre for preformatted text -->
+    <pre>
+        function hello(){
+            console.log('Hello, world')
+        }
+    </pre>
+    <!-- Address for contact information -->
+    <address>
+        Written by Masynctech <br>
+        Visit us at: <br>
+        www.masynctech.com<br>
+        Box 567, Kumasi Ghana <br>
+        Ghana
+    </address>
+
+    <!-- cite for references to creative works -->
+    <p>
+        <cite>The great MERN Stack Book</cite> by Masynctech
+    </p>
+   <!-- bdo: override text direction -->
+   <p>
+    The text direction overriden
+    <bdo dir="rtl">This will be displayed from right to left</bdo>
+   </p>
+
+   <!-- b for bold -->
+   <p>
+    This is <b>bold</b> text
+   </p>
+   <!-- strong: for strong emphasis -->
+   <p>
+    This is <strong>strong</strong> text
+   </p>
+   <!-- i: for italic -->
+   <i>This is italic text</i>
+   <!-- em: emphasized -->
+   <p>
+    This is <em>emphasized</em> text
+   </p>
+       <!-- small for smaller text -->
+       <p>
+        This is <small>small</small> text
+       </p>
+
+           <!-- del for deleted text -->
+        <p>
+            This is <del>deleted</del> text
+        </p>
+            <!-- ins for inserted text -->
+        <p>This is <ins>inserted</ins> text</p>
+
+            <!-- sub for subscript text -->
+        <p>
+            This is subscript text: H<sub>2</sub>0
+        </p>
+          <!-- sup for superscript text -->
+          <p>
+            This is superscript text: E = mc <sup>2</sup>
+          </p>
+          <!-- u: underline -->
+          <p>
+            This is <u>underline</u> text
+          </p>
+
+
+
+           <h1>Forms in HTML</h1>
+    <form>
+    <div>
+      <!-- Text input -->
+     <label for="fullname">Enter fullname:</label>
+    <input id="fullname" type="text" placeholder="Enter fullname">
+    </div>
+    <br>
+        <!-- Number input -->
+       <div>
+        <label for="age">Age:</label>
+        <input  type="number">
+       </div>
+
+       <br>
+       <!-- Pasword input -->
+      <div>
+       <label>Pasword:</label>
+       <input type="password">
+      </div>
+
+
+      <br>
+      <!-- Email input -->
+     <div>
+      <label>Email:</label>
+      <input type="email">
+     </div>
+
+     <br>
+     <!-- url input -->
+    <div>
+     <label>URL:</label>
+     <input type="url">
+    </div>
+    <br>
+    <!-- Phone number input -->
+   <div>
+    <label>Phone number:</label>
+    <input type="tel">
+   </div>
+
+   <br>
+   <!-- Number input with min and max -->
+  <div>
+   <label>Age:</label>
+   <input type="number" min="18" max="25">
+  </div>
+
+  <br>
+  <!-- Range Input -->
+ <div>
+  <label>Range:</label>
+  <input type="range" min="18" max="25">
+ </div>
+
+ <br>
+ <!-- Date input -->
+<div>
+ <label>Date:</label>
+ <input type="date">
+</div>
+
+
+<br>
+<!-- Time input -->
+<div>
+<label>Time:</label>
+<input type="time">
+</div>
+
+<br>
+<!-- month input -->
+<div>
+<label>Month:</label>
+<input type="month">
+</div>
+
+<br>
+<!-- Week input -->
+<div>
+<label>Week:</label>
+<input type="week">
+</div>
+
+
+<br>
+<!-- Color input -->
+<div>
+<label>Color:</label>
+<input type="color">
+</div>
+
+<br>
+<!-- Checkbox input -->
+<div>
+<label>Select your course:</label>
+<input type="checkbox">
+<input type="checkbox">
+
+
+
+<br>
+<!-- Checkbox input -->
+<div>
+<label>Radio Buttons:</label>
+<input type="radio">
+
+
+<br>
+<!-- File input -->
+<div>
+<label>File:</label>
+<input type="file">
+
+<br>
+<!-- Text area input -->
+<div>
+<label>Description:</label>
+<textarea rows="10" cols="60"></textarea>
+
+<br>
+<!-- Select dropdown -->
+<div>
+<label>Choose your course:</label>
+<select>
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="Javascript">Javascript</option>
+    <option value="Nodejs">Nodejs</option>
+</select>
+<button type="submit">Register</button>
+</div>
+</form>
+
+<!--Table format in HTML-->
+ <h1>Students Grade Table</h1>
+    <hr>
+    <table>
+        <!-- Thead -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emmanuel</td>
+                <td>Math</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>Math</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Thomas</td>
+                <td>Science</td>
+                <td>B+</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+      <!-- Audio -->
+    <h1>Audio Example</h1>
+    <audio controls src="./night-detective-226857.mp3"></audio>
+
+    <audio controls>
+      <source src="./night-detective-226857.mp3" type="audio/mpeg" />
+      Your browser does not support audio element
+    </audio>
+
+    <!-- Video tag -->
+    <h1>Video Example</h1>
+    <video
+      width="320"
+      height="240"
+      controls
+      src="./172655-847860558_tiny.mp4"
+    ></video>
+
+    <video width="320" height="240" controls>
+      <source src="./172655-847860558_tiny.mp4" type="video/mp4" />
+      <source src="./172655-847860558_tiny.webm" type="video/webm" />
+      Your browser does not support video element
+    </video>
+
+    <h1>Youtube videos</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/CSTfgYynziw?si=fjGM07D-o5gIJhk6"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+ ></iframe>
+<hr />
+ <h1>Emojis and Entities</h1>
+    <hr />
+    <p>List of Emojis</p>
+    <!-- Emojis -->
+    <p style="font-size: 40px">Smile: 😀</p>
+    <p style="font-size: 40px">Thumbs Up: 👍</p>
+    <p style="font-size: 40px">Rocket: 🚀</p>
+
+    <!-- Entities -->
+    <h1>Entities Lists</h1>
+    <p style="font-size: 40px">&commat;</p>
+    <p style="font-size: 40px">&copy;</p>
+  </body>
+</html>
